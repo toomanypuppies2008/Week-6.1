@@ -1,0 +1,249 @@
+
+.block {
+  display: grid;
+  grid-template-columns: 3fr 4fr 7fr;
+  grid-template-rows: 100px;
+}
+ 
+
+  .logo {
+    width: 74px;
+    height: 74px;
+    margin-left: 100px;
+    }
+
+  .text {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.logo-text {
+font-weight: 600;
+font-size: 40px;
+line-height: 134%;
+color: #99baed;
+margin-left: 150px;
+margin-top: -45px;
+text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  color: #163561;
+  overflow: hidden;
+}
+
+.hhsg {
+  text-decoration: none;
+}
+
+.hhsg:hover {
+ color: #fbb400;
+}
+
+.home-back {
+width: 63px;
+height: 108px;
+margin-left: -100px;
+margin-bottom: 15px;
+background: #a3c1ef; 
+border-radius: 5px;
+z-index: -1;
+}
+
+.third-block {
+  display: flex;
+  width: 516px;
+  height: 93px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.logo-notification, .logo-profile {
+  width: 40px;
+  height: 40px;
+}
+
+.button-1, .button-2, .button-3 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 151%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #a3c1ef;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-1:hover {
+text-decoration: underline;
+}
+
+.section-1 {
+  width: 100%;
+  height: 40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 650px 650px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.text-2 {
+color: #163561;
+font-weight: 700;
+font-size: 75px;
+line-height: 134%;
+}
+
+.orange {
+  color: #fbb400;
+}
+
+.button-2 {
+  width: 120px;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.button-2:hover {
+  text-decoration: underline;
+  }
+
+  .aside-block {
+    overflow: hidden;
+  }
+
+
+.paragraph-1, .paragraph-2 {
+font-weight: 400;
+font-size: 25px;
+line-height: 151%;
+letter-spacing: 0.03em;
+color: #153461;
+opacity: 0.65;
+}
+
+.main-block-1 {
+ margin-left: 100px;
+}
+
+.barbers {
+width: 824px;
+height: 677px;
+}
+
+
+.section-2 {
+  width: 100%;
+  height: 40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 650px 650px;
+  margin-top: 50px;
+}
+
+.barbers-2 {
+  width: 648px;
+  height: 648px;
+}
+
+
+.button-3:hover {
+  text-decoration: underline;
+  }
+
+  .block-3 {
+    text-align: center;
+    margin-top: -80px;
+  }
+
+  .section-3 {
+    margin-bottom: -700px;
+    width: 100%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: repeat(3,441px);
+    grid-template-rows: repeat(3,533px);
+    justify-content: center;
+    column-gap: 40px;
+  }
+
+  .hair, .beard, .facial {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   
+  }
+
+  .hair {
+    background-color: rgba(153, 186, 237, 1);
+    border-radius: 29px;
+  }
+
+  .beard, .facial {
+  border-radius: 29px;
+  box-shadow: 0 5px 0 0 #99baed;
+  background: #fafbff;
+  }
+
+.hair-cut {
+font-weight: 700;
+font-size: 45px;
+line-height: 117%;
+letter-spacing: 0.03em;
+color: #fff;
+  }
+
+  .p-scissors {
+font-weight: 400;
+font-size: 25px;
+line-height: 151%;
+letter-spacing: 0.03em;
+color: #fff;
+opacity: 0.65;
+  }
+
+.beard-1, .facial-pack {
+font-weight: 700;
+font-size: 45px;
+line-height: 117%;
+letter-spacing: 0.03em;
+color: #163561;
+}
+
+
+.p-razor, .p-cleanser {
+font-weight: 400;
+font-size: 25px;
+line-height: 151%;
+letter-spacing: 0.03em;
+color: #153461;
+opacity: 0.65;
+}
+
+.beard, .facial {
+box-shadow: 0 5px  #99baed;
+background: #fafbff;
+}
+
+
+.scissors, .hair-cut, .cleanser, .facial-pack {
+  margin-top: 45px;
+}
+
+.razor {
+  margin-top: 20px;
+}
+
